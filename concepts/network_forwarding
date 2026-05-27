@@ -1,0 +1,13 @@
+Today, let’s look at the difference between lateral movement, pivoting, and tunneling in cybersecurity.
+
+Lateral movement is like moving between multiple offices inside the same building: office 1, office 2, office 3, and so on. In cybersecurity, it means using access to one machine to reach other machines, services, or accounts within the same network.
+
+Pivoting is different. It means using a compromised host as a bridge to reach another network segment that was not directly accessible before. Imagine finding a hidden passage from Building A to Building B inside a company.
+
+Tunneling is the technique of encapsulating one type of traffic inside another protocol. For example, forwarding RDP traffic through SSH. In our analogy, it is like hiding a key inside a normal-looking package: from the outside, it looks like a regular parcel, but it actually carries something else inside.
+
+Quick summary:
+
+Lateral movement = moving across systems in the same environment.
+Pivoting = using one compromised host to reach another network.
+Tunneling = hiding or carrying traffic inside another protocol.
