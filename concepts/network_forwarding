@@ -11,3 +11,10 @@ Quick summary:
 Lateral movement = moving across systems in the same environment.
 Pivoting = using one compromised host to reach another network.
 Tunneling = hiding or carrying traffic inside another protocol.
+
+an important rule in pentesting is : when a machine is compromised go check her NICs you might found a hidden network not accessible with tour own attacker machine.
+On Linux :
+ip a 
+ifconfig 
+On Windows : 
+ipconfig /all
